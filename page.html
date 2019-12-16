@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .text {
+            float: left;
+            width: 10%;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <div id = "qwer" class = "text">Текст 1</div id = "qwer">
+        <div class = "text">Текст 2</div>
+        <br>
+        <div class = "text">Текст 3</div>
+        <div class = "text">Текст 4</div>
+    </div>
+
+    <script>
+        var el = document.getElementById("qwer");
+        function remove(elem) {
+            elem.parentNode.removeChild(elem);
+        }
+        remove(el);
+    </script>
+</body>
+</html>

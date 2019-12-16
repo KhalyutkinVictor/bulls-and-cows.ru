@@ -1,0 +1,20 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "bulls&cows game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "author": "Khalyutkin Victor",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "node-static": "^0.7.11",
+    "ws": "^7.2.1"
+  }
+}

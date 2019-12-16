@@ -1,0 +1,17 @@
+.text {
+    float: left;
+    width: 15%;
+}
+
+.myturn {
+    color: rgb(214, 56, 85);
+}
+
+.opponentturn {
+    color: rgb(96, 84, 227);
+}
+
+.stateclass {
+    color: rgb(13, 92, 68);
+    font-size: 20;
+}
